@@ -6,7 +6,7 @@ package basics;
 	        
 	        int sum = num1 + num2;//adding two variables.
 	        
-	        System.out.println("The sum is: " + sum);
+	        System.out.println("The sum is: " + sum);//printing the output
 	    }
 	}
 
