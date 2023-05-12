@@ -1,6 +1,6 @@
 package basics;
 	public class AdditionProgram {
-	    public static void main(String[] args) {
+	    public static void main(String[] args) {//comments added
 	        int num1 = 5;//integer type variable
 	        int num2 = 10;
 	        
