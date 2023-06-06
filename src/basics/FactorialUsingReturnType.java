@@ -26,8 +26,8 @@ public class FactorialUsingReturnType {
 	public static void main(String args[])
 	{
 		FactorialUsingReturnType obj1= new FactorialUsingReturnType();
-		long result=obj1.factorial(5);
-		System.out.println("The factorial value is "+result);
+		long factorialNumber=obj1.factorial(5);
+		System.out.println("The factorial value is "+factorialNumber);
 
 		FactorialUsingReturnType obj2= new FactorialUsingReturnType();
 		long result1=obj2.factorial(25);
