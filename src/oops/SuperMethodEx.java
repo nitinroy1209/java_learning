@@ -30,7 +30,10 @@ class Maruthi extends Car1
 	{
 		displayColor();
 		super.displayColor();
+	
 	}
+	
+	
 }
 
 
