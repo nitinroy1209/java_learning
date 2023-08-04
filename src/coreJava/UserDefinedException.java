@@ -10,8 +10,8 @@ public class UserDefinedException {
 		{
 			if (age <=18)
 			{
-				//throw new AgeException();
-				throw new AgeException("Age must not be less than 18");
+				throw new AgeException();
+				//throw new AgeException("Age must not be less than 18");
 			}
 		}
 		catch(Exception ex)
@@ -24,7 +24,7 @@ public class UserDefinedException {
 		
 		public static void main(String[] args) {
 			
-			validateAge(10);
+			validateAge(17);
 
 	}
 
@@ -39,11 +39,13 @@ public class UserDefinedException {
 */
 class AgeException extends Exception
 {
+	
 	AgeException()
 	{
 		System.out.println("Age should be greater than 18");
 	}
 	
+	//// we can pass the argument for our own exception but for that we have to create a constructor
 	AgeException(String str)
 	{
 		System.out.println(str);

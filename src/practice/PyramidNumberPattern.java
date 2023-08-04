@@ -9,7 +9,7 @@ public class PyramidNumberPattern {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int numRows = scanner.nextInt();
-        scanner.close();
+        //scanner.close();
 
         int currentValue = numRows * 2 - 1;
 

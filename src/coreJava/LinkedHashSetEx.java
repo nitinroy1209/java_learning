@@ -17,6 +17,8 @@ public class LinkedHashSetEx {
 			lhs.add("Java");
 			lhs.add("selenium");
 			lhs.add(10);
+			lhs.add(null);
+			lhs.add(null);
 			
 			System.out.println(lhs);
 			

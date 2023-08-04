@@ -77,7 +77,7 @@ public class StringMethods {
 	        //System.out.println("Equals Ignore Case 'hello, world!': " + str.equalsIgnoreCase("hello, world!"));
 	        //System.out.println("Trimmed string: " + str.trim());
 	        //System.out.println("Replaced 'o' with 'a': " + str.replace('o', 'a'));
-	        //System.out.println("Split string at ',': " + Arrays.toString(str.split(",")));
+	        System.out.println("Split string at ',': " + Arrays.toString(str.split(",")));
 	        //System.out.println("Substring from index 7 to 12: " + str.substring(7, 12));
 	        //System.out.println("Reversed string: " + str.reverse());
 	        //System.out.println("Is Palindrome? " + str.isPalindrome());
